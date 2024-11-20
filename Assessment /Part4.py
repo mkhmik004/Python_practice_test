@@ -1,9 +1,3 @@
-def generate_random_list(length):
-    """Generate a list of random numbers of a given length"""
-    
-    return ""
-
-
 def find_max(numbers):
     """Find the maximum number in a list of numbers"""
     

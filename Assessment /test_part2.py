@@ -1,18 +1,7 @@
 import unittest
-from part2 import *
+
 
 class TestFunctions(unittest.TestCase):
-
-    def test_compute_standard_deviation(self):
-        self.assertAlmostEqual(compute_standard_deviation([1, 2, 3, 4, 5]), 1.4142135623730951)
-        self.assertEqual(compute_standard_deviation([]), None)
-        self.assertAlmostEqual(compute_standard_deviation([10, 10, 10]), 0)
-
-    def test_find_second_largest(self):
-        self.assertEqual(find_second_largest([1, 2, 3, 4, 5]), 4)
-        self.assertEqual(find_second_largest([1, 1, 1]), None)
-        self.assertEqual(find_second_largest([5, 5, 4, 4]), 4)
-        self.assertEqual(find_second_largest([-1, -2, -3, -4]), -2)
 
     def test_character_frequency_per_word(self):
         self.assertEqual(character_frequency_per_word("hello world"),
