@@ -1,26 +1,33 @@
+import string,re
 def find_max(numbers):
     """Find the maximum number in a list of numbers"""
     
-    return ""
+    return max(numbers)
 
 
 def find_min(numbers):
     """Find the minimum number in a list of numbers"""
     
-    return ""
+    return min(numbers)
 
 
 def find_average(numbers):
     """Find the average of a list of numbers"""
-    
-    return ""
+    total_numbers = 0
+    for number in numbers:
+        total_numbers = total_numbers + number
+    length = len(numbers)
+
+    return total_numbers / length
  
 
 def find_number_of_even_numbers(numbers):
     """Find the number of even numbers in a list of numbers"""
-    
-    return ""
-
+    counter=[]
+    for value in numbers:
+        if int(value)%2==0:
+            counter.append(value)
+    return tuple(counter)
 
 def find_number_of_odd_numbers(numbers):
     """Find the number of odd numbers in a list of numbers"""
