@@ -22,16 +22,10 @@ To start working on the exercises, clone the repository to your local machine:
 
 git clone <repository_url>
 
-2. Install Dependencies
-
-If the project has any dependencies, they are listed in the requirements.txt file. Install them using pip:
-
-pip install -r requirements.txt
-
-3. Implement the Functions
+2. Implement the Functions
 
 Each file (part1.py, part2.py, part3.py) contains a set of function stubs. Your task is to implement the logic for each function, following the instructions provided in the docstrings.
-4. Run the Tests
+3. Run the Tests
 
 Once you have implemented the functions, you can run the tests to verify your solutions.
 Run Unit Tests for Each Part
@@ -56,7 +50,7 @@ You can also run all tests at once using:
 
 python -m unittest discover tests/
 
-5. Review the Test Results
+4. Review the Test Results
 
 If your implementation is correct, you will see output similar to this:
 
